@@ -1,0 +1,11 @@
+{
+    "extends" : [
+        "standard",
+        "react-app",
+        "react-app/jest"
+    ],
+    "rules" : {
+    //    "no-console": ["error", { "allow": ["warn", "error"]}],
+       "semi": ["error","always"]
+    }
+}

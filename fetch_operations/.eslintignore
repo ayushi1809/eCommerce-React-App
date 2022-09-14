@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/public
+/README.md
+
+# testing
+/coverage
+*.css
+*.json

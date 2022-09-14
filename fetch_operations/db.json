@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "ayushi@gmail.com",
+      "password": "$2a$10$PPTQLrz4CLiks9/5x/A.kO0P1lZm2hBbu8MSYWHq0eY7nq6ejjvNG",
+      "id": 1
+    },
+    {
+      "email": "ayushi123@gmail.com",
+      "password": "$2a$10$OtgTcwRo3QiGKOsEcEqqW.bQ1Uh0qM4niKPNiuH4x6q/1InRX64xG",
+      "id": 2
+    },
+    {
+      "email": "khew@gmail.com",
+      "password": "$2a$10$lfOoYJD.ZBMDiVyAnyOyGe5wMUOtvzKKifqSwoCRpsz1fml3ncFW6",
+      "id": 3
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$fFrUairh1D7hs47z0X529eJwQh3onF57z1T7AmxIZ1zjmrcjSw9n.",
+      "id": 4
+    },
+    {
+      "email": "tanmay@gmail.com",
+      "password": "$2a$10$HQ82W68U1t33WS6MrkjRxOfPWB0HuN1qHiz62S/t74TQsSJpZ.71a",
+      "id": 5
+    }
+  ]
+}

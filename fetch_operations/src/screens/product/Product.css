@@ -1,0 +1,106 @@
+.parent{ 
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; 
+  margin: 4px;
+  background-color : #ccc;
+  position: relative;
+  top: 50px;
+  left: 60px;
+ 
+}
+.wrap{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.btn1 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+;
+}
+.btn2 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.column {
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  margin: 4px;
+  position: relative;
+  top: 40px;
+ 
+   /* Should be removed. Only for demonstration */
+}
+
+.label1{
+  position: relative;
+  left : 20px;
+  top : 20px;
+}
+.option1{
+  position: relative;
+  top : 20px;
+  left: 25px;
+}
+.label2{
+  position: relative;
+  left : 900px;
+  top : 20px;
+}
+.option2{
+  position: relative;
+  top : 20px;
+  left: 905px;
+}
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    position: fixed;
+    top : 500px;
+    right:600px;
+  }
+  .pagination > .active > a{
+    background-color: #04AA6D ;
+    border-color: #04AA6D ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #04AA6D ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #04AA6D ;
+    border-color: #04AA6D;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #04AA6D
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+
